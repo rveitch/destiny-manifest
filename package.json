@@ -1,0 +1,28 @@
+{
+  "name": "destiny-manifest",
+  "version": "0.0.1",
+  "description": "Node app for Destiny Manifest database extraction, indexing and manipulation.",
+	"license": "GPL-3.0",
+  "main": "index.js",
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/rveitch/destiny-manifest"
+  },
+	"authors": [
+		{
+			"name": "Ryan Veitch",
+			"email": "ryan.r.veitch@gmail.com"
+		}
+	],
+	"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node getBungieManifest.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "request": "^2.73.0",
+    "sqlite3": "^3.1.4",
+    "unzip": "^0.1.11"
+  }
+}

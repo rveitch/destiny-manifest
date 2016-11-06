@@ -1,3 +1,13 @@
+# Custom
+.DS_STORE
+misc-scripts
+manifest.zip
+*.content
+*.db
+
+# Temp?
+tablenames.json
+
 # Logs
 logs
 *.log
